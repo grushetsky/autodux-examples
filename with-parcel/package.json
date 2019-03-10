@@ -5,12 +5,13 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "clear": "rm -rf .cache dist"
   },
   "devDependencies": {
     "parcel-bundler": "1.12.0"
   },
   "dependencies": {
-    "autodux": "5.0.1"
+    "autodux": "https://github.com/grushetsky/autodux.git#switch-to-ramda"
   }
 }
